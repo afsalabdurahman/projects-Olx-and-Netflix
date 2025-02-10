@@ -1,0 +1,127 @@
+/* Header styles */
+.header {
+    background-color: #141414;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__logo {
+    width: 100px;
+    height: 60px;
+  }
+  
+  .header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header__menu-item {
+    margin-left: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e5e5e5;
+    cursor: pointer;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/eb90437e-a876-47c3-a138-ca27772a4d2a/IN-en-20230306-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: contrast(0.8);
+    filter: brightness(0.9);
+  }
+
+  span{
+    user-select: none;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    fill: currentColor;
+    position: relative;
+    transition-duration: 250ms;
+    transition-property: background-color,border-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    vertical-align: text-top;
+    width: auto;
+    font-size: 0.875rem;
+    font-weight: 500;
+    min-height: 1rem;
+    padding: 0.25rem 1rem;
+    background: rgba(34, 21, 21, 0.678);
+    color: rgb(163, 34, 34);
+  }
+  .sign{
+    user-select: none;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    fill: currentColor;
+    position: relative;
+    color: rgb(230, 230, 230);
+    background-color: rgb(229,9,20);
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+  .hero__content {
+    text-align: center;
+  }
+  
+  .hero__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 100%);
+  
+  }
+  
+  .hero__description {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  
+  .hero__button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #e50914;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .hero__button:hover {
+    background-color: #ff0a16;
+  }
+  
+  /* Featured section styles */
+  .featured {
+    padding: 50px;
+  }
+  
+  .featured__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .featured__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .poster{
+    height: 50px;
+   cursor: pointer;
+    }
