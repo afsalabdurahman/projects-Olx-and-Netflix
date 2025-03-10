@@ -15,9 +15,6 @@ This is an **OLX Clone** application built using **Node.js** (backend) and **Rea
 - **Database**: MongoDB (with Mongoose)
 - **Image Upload**: Cloudinary or local file storage (depending on implementation)
 
-## Folder Structure
-
-The folder structure of the project is organized into two main parts: the **frontend** (React.js) and the **backend** (Node.js). Below is an image of the folder structure.
 
 ![Folder Structure](nodeServer/olx.png)
 
